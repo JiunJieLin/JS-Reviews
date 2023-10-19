@@ -137,3 +137,70 @@ table {
   border-spacing: 0;
 }
 /* start here */
+:root {
+  --primary-color: lightseagreen;
+}
+body {
+  background: #b6d3d3;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.container h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.underline {
+  width: 80px;
+  border: 3px solid var(--primary-color);
+}
+.reviews {
+  background-color: #fff;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  gap: 10px;
+  margin-top: 40px;
+}
+.image-container {
+  width: 150px;
+  height: 150px;
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+.job {
+  color: lightseagreen;
+}
+.info {
+  line-height: 25px;
+}
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+.btn-container button {
+  color: var(--primary-color);
+  background: none;
+  font-size: 20px;
+}
+.radom-btn {
+  background-color: aliceblue;
+  border: 2px solid darkcyan;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.radom-btn span {
+  color: var(--primary-color);
+}
